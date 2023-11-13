@@ -24,7 +24,7 @@ Statistics        Avg      Stdev        Max
 ```
 
 ### 100 concurrent clients - 1284 request per second
-```shell`
+```shell
 ➜  bombardier git:(master) ✗ ./bombardier http://127.0.0.1:8080/current -c 100 -l
 Bombarding http://127.0.0.1:8080/current for 10s using 100 connection(s)
 [==========================================================================================================================================================================================] 10s
